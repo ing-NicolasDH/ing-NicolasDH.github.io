@@ -1,0 +1,37 @@
+.container{
+  background-color: aquamarine;
+  margin: 0%;
+  border-radius: 10px;
+  
+  width: 100%;
+  height: 100vh;
+  
+
+}
+.container h1{
+  text-align: center;
+}
+.container-list{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  
+  
+  width: 100%;
+  justify-content: center;
+  gap: 12px;
+  
+  
+}
+.container .container-list div{
+  background-color: antiquewhite;
+  border: 3px solid;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 20px;
+  width: 300px; 
+
+}
+.container .container-list div:nth-child(1){
+
+  margin-top: 30px;
+}
